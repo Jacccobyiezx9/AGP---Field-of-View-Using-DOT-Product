@@ -47,7 +47,6 @@ public class DotProductDemo : MonoBehaviour
         {
             Debug.Log("Player is IN FRONT of this object.");
             textMeshPro.text = "Player is IN FRONT of this object.";
-
         }
         else if (dot < -0.5) 
         {
@@ -87,8 +86,7 @@ public class DotProductDemo : MonoBehaviour
         {
             inFOV = false;
             Debug.Log("Player is OUTSIDE the field of view.");
-        }
-            
+        } 
     }
 
     // ---------------------------------------------
