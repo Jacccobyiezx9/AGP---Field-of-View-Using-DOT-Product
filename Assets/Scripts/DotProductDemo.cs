@@ -55,8 +55,8 @@ public class DotProductDemo : MonoBehaviour
         }
         else if(dotRight > 0)
         {
-            Debug.Log("Player is to the LEFT of this object.");
-            textMeshPro.text = "Player is to the LEFT of this object.";
+            Debug.Log("Player is to the RIGHT of this object.");
+            textMeshPro.text = "Player is to the RIGHT of this object.";
         }
         else if(dotRight < 0)
         {
